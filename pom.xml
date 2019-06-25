@@ -216,5 +216,14 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-
+<distributionManagement>
+  <snapshotRepository>
+    <id>Maven_Snapshots</id>
+    <url>http://52.90.85.96:8989/nexus/content/repositories/Maven_Snapshots</url>
+  </snapshotRepository>
+ <repository>
+    <id>Maven_Releases</id>
+    <url>http://52.90.85.96:8989/nexus/content/repositories/Maven_Releases</url>
+  </repository>
+</distributionManagement>
 </project>
